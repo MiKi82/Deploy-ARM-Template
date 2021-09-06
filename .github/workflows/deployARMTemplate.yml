@@ -7,7 +7,6 @@ on:
 env:
   AZURE_SUBSCRIPTION_ID: << Subscription Id >>   # set this to your Azure Subscription Id
   AZURE_RESOURCE_GROUP: GitHubActionExercise-rg   # set this to your target resource group
-
 jobs:
   deploy-virtual-network-template:
     runs-on: ubuntu-latest
